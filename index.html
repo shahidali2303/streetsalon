@@ -79,7 +79,7 @@
                       <a href="#reviews-area">Reviews</a>
                     </li>
 
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#contact-area">Contact</a></li>
                   </ul>
                 </nav>
               </div>
@@ -89,7 +89,7 @@
                 class="tp-header-left d-flex align-items-center justify-content-end"
               >
                 <div class="tp-header-yellow-button tp-yellow-space">
-                  <a class="tp-btn-black" href="#">Let’s Talk 👋</a>
+                  <a class="tp-btn-black" href="#contact-area">Let’s Talk 👋</a>
                 </div>
               </div>
             </div>
@@ -119,7 +119,9 @@
             <div
               class="tp-header-right z-index-1 d-flex align-items-center justify-content-end"
             >
-              <a class="tp-btn-yellow d-none d-md-block" href="#">Let's Talk</a>
+              <a class="tp-btn-yellow d-none d-md-block" href="#contact-area"
+                >Let's Talk</a
+              >
               <button class="tp-menu-bar"><i class="fal fa-bars"></i></button>
             </div>
           </div>
@@ -155,17 +157,15 @@
           <ul>
             <li>
               <i class="fas fa-star"></i>
-              <a href="https://goo.gl/maps/abHegV4AoiJA6Syd8" target="_blank"
-                >Melbone st, Australia, Ny 12099</a
-              >
+              <a href="#" target="_blank">Melbone st, Australia, Ny 12099</a>
             </li>
             <li>
               <i class="fas fa-star"></i>
-              <a href="tel:8180012345678">+81 800 123 456 78</a>
+              <a href="#">+81 800 123 456 78</a>
             </li>
             <li>
               <i class="fas fa-star"></i>
-              <a href="mailto:Collaxmail@gmail.com">Collaxmail@gmail.com</a>
+              <a href="#">example@gmail.com</a>
             </li>
           </ul>
         </div>
@@ -175,33 +175,6 @@
             <input type="text" placeholder="Enter mail" />
             <button type="submit"><i class="fas fa-paper-plane"></i></button>
           </form>
-        </div>
-        <div class="tpoffcanvas__instagram d-none d-sm-block">
-          <p>Check Instagram POst</p>
-          <div class="tp-insta">
-            <div class="row">
-              <div class="col-3 col-sm-3">
-                <a href="#"
-                  ><img src="assets/img/offcanvas/insta-1.jpg" alt=""
-                /></a>
-              </div>
-              <div class="col-3 col-sm-3">
-                <a href="#"
-                  ><img src="assets/img/offcanvas/insta-2.jpg" alt=""
-                /></a>
-              </div>
-              <div class="col-3 col-sm-3">
-                <a href="#"
-                  ><img src="assets/img/offcanvas/insta-4.jpg" alt=""
-                /></a>
-              </div>
-              <div class="col-3 col-sm-3">
-                <a href="#"
-                  ><img src="assets/img/offcanvas/insta-4.jpg" alt=""
-                /></a>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -277,10 +250,6 @@
                 >
                 <a class="social-icon-2" href="#"
                   ><i class="fab fa-twitter social-icon-2"></i
-                  ><span>twitter</span></a
-                >
-                <a class="social-icon-2 d-md-none" href="#"
-                  ><i class="fab fa-behance social-icon-2"></i
                   ><span>twitter</span></a
                 >
               </div>
@@ -816,6 +785,44 @@
     </section>
 
     <!-------------------------------------- testimonial-area-end ---------------------------------------------->
+    <!--contact-area-start -->
+    <section id="contact-area">
+      <div class="tp-contact-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-10 col-lg-10">
+              <div class="tpcontact">
+                <h4 class="tp-contact-big-title">Let’s Talk...</h4>
+                <div class="tpcontact__form tpcontact__form-3">
+                  <form id="contact-form" action="#">
+                    <input
+                      name="name"
+                      type="text"
+                      placeholder="Enter your Name"
+                    />
+                    <input
+                      name="email"
+                      type="email"
+                      placeholder="Enter your Mail"
+                    />
+                    <textarea
+                      name="message"
+                      placeholder="Enter your Massage"
+                    ></textarea>
+                  </form>
+                  <button type="submit" class="tp-btn-yellow">
+                    Send Massage
+                  </button>
+                </div>
+                <p class="ajax-response"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact-area-end -->
     <!-- footer-area-start -->
 
     <footer>
