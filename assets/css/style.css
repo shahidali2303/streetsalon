@@ -1,12 +1,6 @@
 @charset "UTF-8";
 /*-----------------------------------------------------------------------------------
 
-    Theme Name: Template Name – HTML5 Template
-    Author: Theme Pure
-    Support: basictheme@gmail.com
-    Description: Template Name  – HTML5 Template
-    Version: 1.0
-
 -----------------------------------------------------------------------------------
 
 /************ TABLE OF CONTENTS ***************
@@ -46,6 +40,7 @@
   --tp-theme-1: #5956e9;
   --tp-theme-2: #423ef3;
   --tp-theme-primary: #ffdc60;
+  /* --tp-theme-primary: #ff9eaa; */
   --tp-theme-secondary: #57c9da;
   --tp-border-1: #e8ecf2;
 }
@@ -2040,7 +2035,10 @@ input[type="color"] {
 }
 
 .theme-bg {
-  background: var(--tp-theme-2);
+  /* background: var(--tp-theme-2); */
+  background-image: url("assets/img/new/academy/3.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .sky-bg {
@@ -6044,7 +6042,7 @@ input[type="color"] {
 }
 .bpservice:hover .bpservice__item,
 .bpservice.active .bpservice__item {
-  border: 1px solid #f0f0f7;
+  /* border: 1px solid #f0f0f7; */
 }
 .bpservice:hover .bpservice__icon a,
 .bpservice.active .bpservice__icon a {
@@ -7426,7 +7424,7 @@ input[type="color"] {
   stroke: var(--tp-theme-1);
 }
 .tp-pj-title svg {
-  margin-left: 40px;
+  margin-left: 20px;
   transition: 0.3s;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -7621,7 +7619,7 @@ input[type="color"] {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--tp-theme-1);
+  /* background-color: var(--tp-theme-1); */
   border-radius: 20px;
   opacity: 0;
   visibility: hidden;
@@ -8545,7 +8543,7 @@ input[type="color"] {
 }
 
 .tp-testimonial-slider-section .swiper-slide.swiper-slide-active {
-  border: 1px solid #ffdc60;
+  /* border: 1px solid #ffdc60; */
   border-radius: 20px;
 }
 
@@ -9562,7 +9560,7 @@ input[type="color"] {
   line-height: 26px;
   position: relative;
   padding-left: 30px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 .jobdetails__feature ul li span {
   font-size: 16px;
@@ -13333,4 +13331,13 @@ blockquote cite::before {
 .active-class {
   background-color: var(--tp-theme-primary);
   color: var(--tp-common-black);
+}
+
+.academy-header {
+  padding-top: 100px;
+}
+@media (max-width: 768px) {
+  .academy-header {
+    padding-top: 0px;
+  }
 }
