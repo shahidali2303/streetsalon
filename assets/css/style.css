@@ -13376,3 +13376,19 @@ blockquote cite::before {
     padding-top: 60px;
   }
 }
+@media (max-width: 425px) {
+  .caption-button {
+    display: none;
+  }
+}
+@media (min-width: 425px) {
+  .caption-buton-reverse {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .caption-buton-reverse {
+    display: block;
+  }
+}
